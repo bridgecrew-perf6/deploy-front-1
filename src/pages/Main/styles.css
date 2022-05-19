@@ -1,0 +1,266 @@
+.container-main {
+
+    background: linear-gradient(90.23deg, #05EDE3 0.02%, #645FFB 99.63%);
+
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.container-main header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.container-main header .header-logo {
+    margin-left: 105px;
+}
+
+.container-main header .header-profile {
+    display: flex;
+    align-items: center;
+    margin-right: 105px;
+}
+
+.container-main header .header-profile strong {
+    margin-right: 15px;
+}
+
+.container-body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 927px;
+    background: #FFFFFF;
+    border-radius: 60px 60px 0px 0px;
+}
+
+.filter {
+    margin: 55px 0 26px 106px;
+    width: 80px;
+    height: 30px;
+    background: #FAFAFA;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.row {
+    display: flex;
+    gap: 15px;
+    margin: 34px 100px 0 0;
+}
+
+
+.table table {
+    display: flex;
+    flex-direction: column;
+    border-collapse: separate;
+    border-radius: 10px;
+    width: 964px;
+}
+
+.table table thead tr {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    background: #FAFAFA;
+    height: 58px;
+}
+
+.table table tbody tr {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 58px;
+}
+
+.container-resumo {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-left: 34px;
+}
+
+.container-resumo .resumo {
+    width: 236px;
+    height: 196px;
+    background: #FAFAFA;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 26px 33px 31px 33px;
+}
+
+.container-resumo .resumo h1 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #2F2F2F;
+    margin-bottom: 23px;
+}
+
+.container-resumo .resumo .container-infos {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    border-bottom: 1px solid #EAEAEA;
+    margin-bottom: 15px;
+}
+
+.container-resumo .resumo .container-infos .infos:last-child {
+    margin-bottom: 15px;
+}
+
+.container-resumo .resumo .infos {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.container-resumo .resumo .infos strong {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: #2F2F2F;
+}
+
+
+#entrada {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+
+    color: #645FFB;
+}
+
+#saida {
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #FA8C10;
+}
+
+#saldo {
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #3A9FF1;
+
+}
+
+.container-resumo button {
+    all: unset;
+    background: #7978D9;
+    border-radius: 5px;
+    width: 236px;
+    color: #FFFFFF;
+    text-align: center;
+    height: 40px;
+    cursor: pointer;
+}
+
+.container-modal {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 99999;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+
+}
+
+.modal-resumo {
+    padding: 45px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 611px;
+    height: 750px;
+    left: 470px;
+    top: 79px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+}
+
+.modal-resumo .modal-exit {
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal-resumo .buttons-modal {
+    display: flex;
+}
+
+.modal-resumo .buttons-modal button {
+    all: unset;
+    width: 270px;
+    height: 56px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 52px;
+    cursor: pointer;
+}
+
+#btn-azul {
+    background: #3A9FF1;
+    border-radius: 10px 0px 0px 10px;
+}
+
+#btn-cinza {
+    background: #B9B9B9;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.modal-resumo form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 38px;
+}
+
+.modal-resumo form input,
+select {
+    width: 485px;
+    height: 63.49px;
+    left: 479px;
+    top: 373.51px;
+
+    background: #FFFFFF;
+    border: 1px solid #555555;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.modal-resumo button {
+    all: unset;
+    width: 236px;
+    height: 42px;
+    color: #FFFFFF;
+    background: #7978D9;
+    border-radius: 5px;
+    text-align: center;
+    margin: 30px 0 0 130px;
+    cursor: pointer;
+}

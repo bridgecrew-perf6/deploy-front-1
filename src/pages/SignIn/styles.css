@@ -1,0 +1,113 @@
+#financas {
+    color: #6460FB;
+}
+
+.container-signIn {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-signIn img {
+    width: 169px;
+    height: 45px;
+    margin: 46px 0 0 106px;
+}
+
+.container-geral {
+    height: 100%;
+    display: flex;
+    gap: 91px;
+    justify-content: center;
+    margin-top: 180px;
+}
+
+.info {
+    height: 350px;
+    width: 600px;
+    margin-top: 80px;
+}
+
+.info h1 {
+    font-family: 'Rubik';
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 62px;
+    color: #FFFFFF;
+    margin-bottom: 33px;
+}
+
+.info span {
+    color: #6460FB;
+}
+
+.info p {
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    margin-bottom: 43px;
+}
+
+.info button {
+    all: unset;
+    background: #7978D9;
+    border-radius: 5px;
+    width: 300px;
+    height: 49px;
+    text-align: center;
+    color: #FFF;
+}
+
+.info a {
+    font-family: 'Rubik';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.forms {
+    width: 513px;
+    height: 535px;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding-top: 60px;
+}
+
+.forms h1 {
+    color: #7978D9;
+
+}
+
+.forms form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.forms form input {
+    width: 449px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #555555;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.forms form button {
+    all: unset;
+    width: 449px;
+    height: 50px;
+    background: #7978D9;
+    border-radius: 5px;
+    text-align: center;
+    color: #FFF;
+}
