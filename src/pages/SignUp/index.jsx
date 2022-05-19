@@ -18,7 +18,6 @@ export default function SignUp() {
     })
 
     const [error, setError] = useState('');
-    const [sucesso, setSucesso] = useState('');
 
     function handleSubmit(e) {
         e.preventDefault();
@@ -55,7 +54,6 @@ export default function SignUp() {
             confirmacao: ''
         });
 
-        setSucesso('Cadastro realizado com Sucesso!');
         handleApi();
     }
 

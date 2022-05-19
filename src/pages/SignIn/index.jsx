@@ -53,7 +53,7 @@ export default function SignIn() {
             navigate('/main');
         }
 
-    }, []);
+    });
 
     return (
         <div className='container-signIn'>
